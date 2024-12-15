@@ -1,0 +1,35 @@
+2024-12-11 13:12:06,937 - INFO - Banco de dados inicializado com sucesso.
+2024-12-11 13:14:53,278 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-12-11 13:14:53,767 - ERROR - Erro ao cadastrar usuário: (sqlite3.IntegrityError) UNIQUE constraint failed: usuarios.username
+[SQL: INSERT INTO usuarios (username, hashed_password, is_admin) VALUES (?, ?, ?)]
+[parameters: ('teste', '$2b$12$59SV/gU0r6aYOf/sM5GsPOkmfzFKvYtchoEYXh3D2fTimk77ktfdW', 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-11 13:15:01,155 - INFO - Usuário 'teste' autenticado com sucesso!
+2024-12-11 13:21:25,137 - INFO - Cliente 'teste' cadastrado com sucesso! ID: 3, Dados: <models.Cliente object at 0x000001D119C46C90>
+2024-12-11 13:22:02,265 - INFO - Cliente 'teste' atualizado com sucesso! ID: 3, Dados: <models.Cliente object at 0x000001D119C46C90>
+2024-12-11 13:22:36,288 - INFO - Cliente 'teste' atualizado com sucesso! ID: 3, Dados: <models.Cliente object at 0x000001D119C46C90>
+2024-12-11 13:29:16,312 - INFO - Banco de dados inicializado com sucesso.
+2024-12-11 13:33:20,439 - WARNING - Falha na autenticação do usuário 'loguin'.
+2024-12-11 13:33:27,933 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-12-11 13:33:28,346 - INFO - Usuário 'teste' autenticado com sucesso!
+2024-12-11 13:35:08,460 - INFO - Banco de dados inicializado com sucesso.
+2024-12-11 13:35:23,419 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\andre\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-12-11 13:35:24,421 - INFO - Usuário 'teste' autenticado com sucesso!
+2024-12-11 13:35:41,438 - INFO - Cliente 'fnjsifkomfa' cadastrado com sucesso! ID: 4, Dados: <models.Cliente object at 0x000001FADDF27010>
+2024-12-11 17:00:15,785 - INFO - Banco de dados inicializado com sucesso.
+2024-12-14 21:38:09,879 - INFO - Banco de dados inicializado com sucesso.
